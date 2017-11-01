@@ -5,7 +5,7 @@
  */
 /*
 Plugin Name:  Contact Form with reCAPTCHA
-Plugin URI: https://twitter.com/webleyson
+Plugin URI: https://github.com/webleyson/WPContactForm/
 Description: 
 Author: Matt Webley
 Version: 1.0
