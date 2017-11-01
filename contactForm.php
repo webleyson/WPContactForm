@@ -31,7 +31,7 @@ function contactForm($atts){
 	$formHtml .= "<div class='form-group'><label form='name'>Name *</label><br /><input type='text' name='name' class='form-control required' requried><div class='error'></div></div>";
 	$formHtml .= "<div class='form-group'><label form='name'>Email *</label><br /><input type='email' name='email' class='form-control required' requried><div class='error'></div></div>";
 	$formHtml .= "<div class='form-group'><label form='name'>Phone</label><br /><input type='phone' name='phone' class='form-control required' requried></div>";
-	$formHtml .= "<div class='form-group'><label form='name'>Mesage *</label><textarea name='message' class='form-control required' requried></textarea><div class='error'></div></div><br />";
+	$formHtml .= "<div class='form-group'><label form='name'>Message *</label><textarea name='message' class='form-control required' requried></textarea><div class='error'></div></div><br />";
 	$formHtml .= "<div class='form-group g-recaptcha' data-sitekey='".$sitekey."' data-callback='enableBtn'></div>";
 	$formHtml .= "<div class='form-group spinner'></div>";
 	$formHtml .= "<div class='form-group'><input type='submit' id='submit' class='btn btn-success btn-send'></div>";
